@@ -5,7 +5,7 @@
 # print(f'Olá, {nome}')
 
 
-nome_completo = input('QUAL O SEU NOME?: ')
+nome_completo = input('QUAL O SEU NOME?: ')                       
 print('OLA ', nome_completo)
 
 idade = int(input('QUAL A SUA IDADE?: '))
