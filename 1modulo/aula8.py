@@ -1,14 +1,14 @@
 ##EXERCICIO##
 
-print('QUAL SEU NOME')
-nome_completo = input()
+
+nome_completo = input('QUAL O SEU NOME?: ')
 print('OLA '+nome_completo)
 
-print('QUAL A SUA IDADE')
-age = input()
-idade = int(age)
+idade = (input('QUAL A SUA IDADE?: '))
+
+
 if idade > 18 :
-    print('SUA IDADE E:', idade ,', VAMOS CONTINUAR')
+    print(f'SUA IDADE E: {idade}, VAMOS CONTINUAR')
     print('QUAL SUA ALTURA?')
     altura = input()
     if altura >= 1.6 : 
